@@ -8,7 +8,7 @@ st.title("🚦 AI Traffic Safety & Helmet Detection Dashboard")
 st.write("Upload a traffic video file below to run compliance checking live on web browser.")
 
 # Loading local trained best weights file
-model = YOLO("best.pt")
+model = YOLO("yolov8n.pt")
 
 uploaded_file = st.file_uploader("Choose a video file...", type=["mp4", "avi", "mov"])
 
