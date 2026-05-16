@@ -6,7 +6,7 @@ import tempfile
 st.set_page_config(page_title="AI Traffic Compliance", layout="centered")
 st.title("🚦 AI Traffic Safety & Helmet Detection Dashboard")
 st.write("Upload a traffic video file below to run compliance checking live on web browser.")
-
+st.write("Developed by: **Fati Rajput** (fatirajput2341-hash)")
 # Loading local trained best weights file
 model = YOLO("yolov8n.pt")
 
